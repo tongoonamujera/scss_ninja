@@ -34,5 +34,5 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
-  spec.add_runntime_dependency "autoprefixer-rails", ~> "9.1", ">= 9.1.0"
+  spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.3', '>= 10.3.3.0'
 end
