@@ -53,7 +53,11 @@ Or install it yourself as:
     |background-color|         class       | color      |
     |:--------------:|:-------------------:|:----------:|
     |red     | `bg-red`      |![....](https://via.placeholder.com/30/ff0000/000000?txt=+)|
-    |red     | `bg-red`      |`#ff0000`|
+    |orange     |`bg-orn`|![....](https://via.placeholder.com/30/ffa500/000000?txt=+)
+    |green     |`bg-suc`|![....](https://via.placeholder.com/30/008000/000000?txt=+)
+    |pink     |`bg-pnk`|![....](https://via.placeholder.com/30/ff00ff/000000?txt=+)
+    |blue      |`bg-info`|![....](https://via.placeholder.com/30/0000ff/000000?txt=+)
+    |cyan      |`bg-pri`|![....](https://via.placeholder.com/30/00ffff/000000?txt=+)
 
 - ## Columns
 
