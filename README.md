@@ -52,7 +52,7 @@ Or install it yourself as:
 
     |background-color|         class       | color      |
     |:--------------:|:-------------------:|:----------:|
-    |red     | `bg-red`      |![....](https://via.placeholder.com/40/ff0000/000000?txt=+)|
+    |red     | `bg-red`      |![....](https://via.placeholder.com/30/ff0000/000000?txt=+)|
     |red     | `bg-red`      |`#ff0000`|
 
 - ## Columns
