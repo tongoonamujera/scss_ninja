@@ -53,6 +53,13 @@ Or install it yourself as:
 
 - ## Heights and Widths
 
+    |lowest height class| highest height class| explanation|
+    |:-----------------:|:-------------------:|:----------:|
+    |`h-1`              | `h-10`               |height for an element|
+
+    |lowest width class| highest width class| explanation|
+    |:----------------:|:------------------:|:----------:|
+    |`w-1`             | `w-10`             |width for an element|
 
 ## Development
 
