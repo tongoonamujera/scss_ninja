@@ -76,7 +76,9 @@ Or install it yourself as:
     |`column-11`         |           91.67             |
     |`column-12`         |            100              |
 
-**columns start from 1 to 12, the width increases as number increase*
+```dif
+- **columns start from 1 to 12, the width increases as number increase*
+```
 
 - ## Heights and Widths
 
