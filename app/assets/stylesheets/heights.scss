@@ -1,0 +1,14 @@
+$height: 10;
+$width: 10;
+
+@for $i from 1 through $height {
+    .h-#{$i} {
+    height: $i * 10%;
+  }
+}
+
+@for $i from 1 through $width {
+  .w-#{$i} {
+    width: $i * 10%;
+  }
+}
