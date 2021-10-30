@@ -40,6 +40,13 @@ Or install it yourself as:
 
 - ## Paddings
 
+    |lowest padding class| highest padding class| explanation|
+    |:------------------:|:--------------------:|:----------:|
+    |`p-1`               | `p-5`                |add padding around the whole element|
+    |`pt-1`              | `pt-5`               |padding-top|
+    |`pr-1`              | `pr-5`               |padding-right|
+    |`pb-1`              | `pb-5`               |padding-bottom|
+    |`pl-1`              | `pl-5`               |paddding-left|
 - ## Backgrounds
 
 - ## Columns
