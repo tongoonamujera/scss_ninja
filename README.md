@@ -77,7 +77,7 @@ Or install it yourself as:
     |`column-12`         |            100              |
 
 ```diff
-- **columns start from 1 to 12, the width increases as the number increases(and bold)@@
+- columns start from 1 to 12, the width increases as the number increases(and bold)
 ```
 
 - ## Heights and Widths
