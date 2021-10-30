@@ -28,6 +28,16 @@ Or install it yourself as:
 
    - complete usage instructions to come!!!!!!!!!!!!!
 
+- ## Margins
+
+- ## Paddings
+
+- ## Backgrounds
+
+- ## Columns
+
+- ## Heights and Widths
+
 
 ## Development
 
