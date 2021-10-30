@@ -26,7 +26,7 @@ Or install it yourself as:
 
   - add the following code to any scss file  `@import 'scss_ninja';`
 
-   - complete usage instructions to come!!!!!!!!!!!!!
+  - complete usage instructions to come!!!!!!!!!!!!!
 
 - ## Margins
 
@@ -96,7 +96,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/scss_ninja. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/scss_ninja/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub [at](https://github.com/tongoonamujera/scss_ninja). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/tongoonamujera/scss_ninja/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -104,4 +104,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ScssNinja project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/scss_ninja/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the ScssNinja project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/tongooonamujera/scss_ninja/blob/main/CODE_OF_CONDUCT.md).
