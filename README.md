@@ -52,7 +52,7 @@ Or install it yourself as:
 
     |background-color|         class       | color      |
     |:--------------:|:-------------------:|:----------:|
-    |red     | `bg-red`      |![#03c15](https://via.placehoder.com/15/f03c15/000000?txt=+)|
+    |red     | `bg-red`      |![#f03c15](https://via.placehoder.com/15/f03c15/000000?txt=+)|
 
 - ## Columns
 
