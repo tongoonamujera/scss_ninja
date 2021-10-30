@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- This gem is used for stylesheets
+
+  - add the following code to any scss file  `@import scss_ninja`
+
+   - complete usage instructions to come!!!!!!!!!!!!!
+
 
 ## Development
 
