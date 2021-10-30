@@ -30,7 +30,7 @@ Or install it yourself as:
 
 - ## Margins
 
-  - |lowest margin class| highest margin class| explanation|
+    |lowest margin class| highest margin class| explanation|
     |:-----------------:|:-------------------:|:----------:|
     |`m-1`              | `m-5`               |add margin around the whole element|
     |`mt-1`             | `mt-5`              |margin-top|
