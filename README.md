@@ -30,6 +30,10 @@ Or install it yourself as:
 
 - ## Margins
 
+  - |lowest margin class| highest margin class| explanation|
+    |:-----------------:|:-------------------:|:----------:|
+    |`m-1`              | `m-5`               |highlights  |
+
 - ## Paddings
 
 - ## Backgrounds
