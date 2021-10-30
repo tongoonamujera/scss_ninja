@@ -32,7 +32,11 @@ Or install it yourself as:
 
   - |lowest margin class| highest margin class| explanation|
     |:-----------------:|:-------------------:|:----------:|
-    |`m-1`              | `m-5`               |highlights  |
+    |`m-1`              | `m-5`               |add margin around the whole element|
+    |`mt-1`             | `mt-5`              |margin-top|
+    |`mr-1`             | `mr-5`              |margin-right|
+    |`mb-1`             | `mb-5`              |margin-bottom|
+    |`ml-1`             | `ml-5`              |margin-left|
 
 - ## Paddings
 
