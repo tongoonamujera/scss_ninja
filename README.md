@@ -47,7 +47,12 @@ Or install it yourself as:
     |`pr-1`              | `pr-5`               |padding-right|
     |`pb-1`              | `pb-5`               |padding-bottom|
     |`pl-1`              | `pl-5`               |paddding-left|
+
 - ## Backgrounds
+
+    |background-color|         class       | color      |
+    |:--------------:|:-------------------:|:----------:|
+    |red     | `bg-red`      |![#03c15](https://via.placehoder.com/15/f03c15/000000?txt=+)|
 
 - ## Columns
 
