@@ -61,6 +61,23 @@ Or install it yourself as:
 
 - ## Columns
 
+    |        class       |% width relative to container|
+    |:------------------:|:---------------------------:|
+    |`column-1`          |           8.33              |
+    |`column-2`          |           16.67             |
+    |`column-3`          |             25              |
+    |`column-4`          |           33.33             |
+    |`column-5`          |           41.67             |
+    |`column-6`          |             50              |
+    |`column-7`          |           58.33             |
+    |`column-8`          |           66.67             |
+    |`column-9`          |             75              |
+    |`column-10`         |           83.33             |
+    |`column-11`         |           91.67             |
+    |`column-12`         |            100              |
+
+**columns start from 1 to 12, the width increases as number increase*
+
 - ## Heights and Widths
 
     |lowest height class| highest height class| explanation|
