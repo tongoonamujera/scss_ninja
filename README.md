@@ -24,7 +24,7 @@ Or install it yourself as:
 
 - This gem is used for stylesheets
 
-  - add the following code to any scss file  `@import 'scss_ninja'`
+  - add the following code to any scss file  `@import 'scss_ninja';`
 
    - complete usage instructions to come!!!!!!!!!!!!!
 
