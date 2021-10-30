@@ -16,9 +16,9 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-  # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "https://github.com/tongoonamujera/scss_ninja.git"
-  # spec.metadata["changelog_uri"] = "https://github.com/tongoonamujera/scss_ninja.git"
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/tongoonamujera/scss_ninja.git"
+  spec.metadata["changelog_uri"] = "https://github.com/tongoonamujera/scss_ninja.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
