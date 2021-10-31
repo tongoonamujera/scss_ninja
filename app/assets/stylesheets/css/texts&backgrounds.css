@@ -59,7 +59,7 @@
 }
 
 .shadow-light {
-  text-shadow: 2px 2px rgb(223, 220, 220);
+  text-shadow: 2px 2px #dfdcdc;
 }
 
 .shadow-dark {
@@ -69,11 +69,10 @@
 .text-white {
   color: white;
   font-weight: 900;
-  text-shadow: 2px 2px rgb(52, 52, 80);
+  text-shadow: 2px 2px #343450;
   font-size: 25px;
   letter-spacing: 1px;
 }
-
 
 /*  ############# colors ############  */
 .bg-dark {
@@ -93,7 +92,6 @@
 }
 
 /* ############# primary colors ###########   */
-
 .bg-pri {
   background-color: #00ffff;
 }
@@ -370,11 +368,13 @@
 }
 
 /* ############ Gradients x-axis ############# */
-
 .grdx-pnkl-orn {
+  background: -webkit-gradient(linear, left top, right top, from(#cc99ff), to(#ff9966));
   background: linear-gradient(to right, #cc99ff 0%, #ff9966 100%);
 }
 
 .grdx-pri-orn {
+  background: -webkit-gradient(linear, left top, right top, from(#66ffcc), color-stop(71%, #ff9933));
   background: linear-gradient(to right, #66ffcc 0%, #ff9933 71%);
 }
+/*# sourceMappingURL=texts&backgrounds.css.map */

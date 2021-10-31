@@ -1,0 +1,59 @@
+.radio-container {
+  width: 100%;
+  height: 20vh;
+  background-color: #b9d8d8;
+  padding: 5rem;
+}
+
+.radio-container .radio-btn,
+.radio-container .radio-btn1 {
+  display: none;
+}
+
+.radio-container .second-label,
+.radio-container .first-label {
+  background-color: white;
+  width: 6rem;
+  height: 2rem;
+  display: block;
+  border-radius: 0.99rem;
+  position: relative;
+}
+
+.radio-container .second-label span,
+.radio-container .first-label span {
+  background-color: black;
+  width: 2rem;
+  height: inherit;
+  display: block;
+  border-radius: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.radio-container .radio-btn:checked ~ .first-label > span {
+  -webkit-transform: translate(200%, 0);
+          transform: translate(200%, 0);
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+.radio-container .radio-btn1:checked ~ .second-label,
+.radio-container .radio-btn:checked ~ .first-label {
+  background-color: orange;
+  -webkit-transition: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
+}
+
+.radio-container .radio-btn1:checked ~ .second-label > span {
+  -webkit-transform: translate(200%, 0);
+          transform: translate(200%, 0);
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+/*# sourceMappingURL=slidebtn.css.map */
