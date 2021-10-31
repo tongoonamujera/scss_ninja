@@ -20,6 +20,14 @@ Or install it yourself as:
 
     $ gem install scss_ninja
 
+- add the following line of code to your html document`s head
+
+```html
+ <link rel="stylesheet" href="https://tongoonamujera.github.io/scss_ninja/app/assets/stylesheets/css/scss_ninja.css">
+```
+
+
+
 ## Usage
 
 - This gem is used for stylesheets
