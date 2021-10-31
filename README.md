@@ -28,13 +28,11 @@ Or install it yourself as:
  <link rel="stylesheet" href="https://tongoonamujera.github.io/scss_ninja/app/assets/stylesheets/css/scss_ninja.css">
 ```
 
-
-
 ## Usage
 
 - This gem is used for stylesheets
 
-  - add the following code to any scss file  `@import 'scss_ninja';`
+  - for rails projects add the following code to any scss file  `@import 'scss_ninja';`
 
   - complete usage instructions to come!!!!!!!!!!!!!
 
