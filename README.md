@@ -4,7 +4,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## Installation for Ruby on Rails Projects
 
 Add this line to your application's Gemfile:
 
@@ -19,6 +19,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install scss_ninja
+
+## Installation for Pure html Projects
 
 - add the following line of code to your html document`s head
 
