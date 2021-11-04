@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.has-text-centered {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+
+.is-fullwidth {
+  width: inherit;
+}
+
+.submit {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-size: 17px;
+  font-weight: 900;
+  border: 1px solid rgb(9, 231, 194);
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main {
+  margin: 0;
+  height: 84%;
+  width: 100%;
+}
+
+.button {
+  padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+  font-size: 17px;
+  font-weight: 900;
+  background-color: #000000;
+  border: 1px solid rgb(9, 231, 194);
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+}
+
+/* ################ Styles for columns ################# */
+
+$column: 12;
+
+@for $i from 1 through $column {
+  @if $column <= 11 {
+    .column-#{$i} {
+      width: (99% * ($i / $column));
+      height: inherit;
+      margin-right: 0 0.5% 0 0.5%;
+    }
+  } @else {
+    .column-#{$i} {
+      width: (100% * ($i / $column));
+      height: inherit;
+    }
+  }
+}
+
+.columns {
+  width: 100%;
+  height: fit-content;
+}
+
+.is-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  $column: 12;
+
+  @for $i from 1 through $column {
+    @if $column <= 11 {
+      .m-column-#{$i} {
+        width: (99% * ($i / $column)) !important;
+        height: inherit;
+        margin-right: 0 0.5% 0 0.5%;
+      }
+    } @else {
+      .m-column-#{$i} {
+        width: (100% * ($i / $column)) !important;
+        height: inherit;
+      }
+    }
+  }
+
+  .columns {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .is-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media only screen and(min-width: 577px) and (max-width: 768px) {
+  $column: 12;
+
+  @for $i from 1 through $column {
+    @if $column <= 11 {
+      .lm-column-#{$i} {
+        width: (99% * ($i / $column));
+        height: inherit;
+        margin-right: 0 0.5% 0 0.5%;
+      }
+    } @else {
+      .lm-column-#{$i} {
+        width: (100% * ($i / $column));
+        height: inherit;
+      }
+    }
+  }
+
+  .columns {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .is-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(min-width: 769px) and (max-width: 992px) {
+  $column: 12;
+
+  @for $i from 1 through $column {
+    @if $column <= 11 {
+      .t-column-#{$i} {
+        width: (99% * ($i / $column));
+        height: inherit;
+        margin-right: 0 0.5% 0 0.5%;
+      }
+    } @else {
+      .t-column-#{$i} {
+        width: (100% * ($i / $column));
+        height: inherit;
+      }
+    }
+  }
+
+  .columns {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .is-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(min-width: 992px) and (max-width: 1200px) {
+  $column: 12;
+
+  @for $i from 1 through $column {
+    @if $column <= 11 {
+      .d-column-#{$i} {
+        width: (99% * ($i / $column));
+        height: inherit;
+        margin-right: 0 0.5% 0 0.5%;
+      }
+    } @else {
+      .d-column-#{$i} {
+        width: (100% * ($i / $column));
+        height: inherit;
+      }
+    }
+  }
+
+  .columns {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .is-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  $column: 12;
+
+  @for $i from 1 through $column {
+    @if $column <= 11 {
+      .ld-column-#{$i} {
+        width: (99% * ($i / $column));
+        height: inherit;
+        margin-right: 0 0.5% 0 0.5%;
+      }
+    } @else {
+      .ld-column-#{$i} {
+        width: (100% * ($i / $column));
+        height: inherit;
+      }
+    }
+  }
+
+  .columns {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .is-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

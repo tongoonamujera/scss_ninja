@@ -13535,4 +13535,338 @@
 .container .carousel-cards .carousel-navigation .label-100:hover::after {
   background-color: yellow;
 }
+
+.pagination {
+  width: inherit;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination .input-1 {
+  display: none;
+}
+
+.pagination .input-2 {
+  display: none;
+}
+
+.pagination .input-3 {
+  display: none;
+}
+
+.pagination .input-4 {
+  display: none;
+}
+
+.pagination .input-5 {
+  display: none;
+}
+
+.pagination .input-6 {
+  display: none;
+}
+
+.pagination .input-7 {
+  display: none;
+}
+
+.pagination .input-8 {
+  display: none;
+}
+
+.pagination .input-9 {
+  display: none;
+}
+
+.pagination .input-10 {
+  display: none;
+}
+
+.pagination .page-1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-3 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-4 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-5 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-6 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-7 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-8 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-9 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .page-10 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.pagination .input-1:checked ~ .page-1 {
+  display: block;
+}
+
+.pagination .input-1:checked ~ .pagination-control > .lab-1 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-2:checked ~ .page-2 {
+  display: block;
+}
+
+.pagination .input-2:checked ~ .pagination-control > .lab-2 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-3:checked ~ .page-3 {
+  display: block;
+}
+
+.pagination .input-3:checked ~ .pagination-control > .lab-3 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-4:checked ~ .page-4 {
+  display: block;
+}
+
+.pagination .input-4:checked ~ .pagination-control > .lab-4 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-5:checked ~ .page-5 {
+  display: block;
+}
+
+.pagination .input-5:checked ~ .pagination-control > .lab-5 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-6:checked ~ .page-6 {
+  display: block;
+}
+
+.pagination .input-6:checked ~ .pagination-control > .lab-6 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-7:checked ~ .page-7 {
+  display: block;
+}
+
+.pagination .input-7:checked ~ .pagination-control > .lab-7 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-8:checked ~ .page-8 {
+  display: block;
+}
+
+.pagination .input-8:checked ~ .pagination-control > .lab-8 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-9:checked ~ .page-9 {
+  display: block;
+}
+
+.pagination .input-9:checked ~ .pagination-control > .lab-9 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .input-10:checked ~ .page-10 {
+  display: block;
+}
+
+.pagination .input-10:checked ~ .pagination-control > .lab-10 {
+  background-color: #db3309;
+  color: lemonchiffon;
+}
+
+.pagination .pagination-control {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(90%);
+          transform: translateY(90%);
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination .pagination-control .lab-1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-5 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-6 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-7 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-8 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-9 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.pagination .pagination-control .lab-10 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  background-color: #494106;
+  border-radius: 5px;
+  margin: auto;
+}
 /*# sourceMappingURL=carousel.css.map */
