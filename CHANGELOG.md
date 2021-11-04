@@ -8,3 +8,9 @@
 
 - Second version release
 - Add more css styles
+
+## [0.1.3] - 2021-11-04
+
+- Second version release
+- Add more css styles
+
