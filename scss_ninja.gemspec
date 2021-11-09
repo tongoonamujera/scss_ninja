@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.3', '>= 10.3.3.0'
-  gem.add_runtime_dependency 'sassc', '~> 2.0'
+  spec.add_runtime_dependency 'sassc', '~> 2.0'
 end
