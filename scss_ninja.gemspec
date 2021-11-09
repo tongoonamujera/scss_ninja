@@ -27,7 +27,6 @@ Gem::Specification.new do |spec|
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
   end
-  spec.files = Dir["app/**/*"]
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
@@ -38,4 +37,5 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.3', '>= 10.3.3.0'
+  gem.add_runtime_dependency 'sassc', '~> 2.0'
 end
