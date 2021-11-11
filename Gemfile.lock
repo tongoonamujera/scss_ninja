@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scss_ninja (0.2.3)
+    scss_ninja (0.2.4)
       autoprefixer-rails (~> 10.3, >= 10.3.3.0)
       sassc (~> 2.0)
 
