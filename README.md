@@ -32,7 +32,7 @@ Or install it yourself as:
 
 - This gem is used for stylesheets
 
-  - for rails projects add the following code to any scss file  `@import 'scss_ninja';`
+  - for rails projects add the following code to your application.css file  `@import './css/scss_ninja.css';`
 
   - complete usage instructions to come!!!!!!!!!!!!!
 
